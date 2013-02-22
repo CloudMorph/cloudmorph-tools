@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMorphDashboard", "CloudMorphDashboard\CloudMorphDashboard.csproj", "{0E03BD41-8206-4357-BD86-3CD142BED685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMorphClient", "..\..\..\cloudmorph-fabric\src\CloudMorphClient\CloudMorphClient.csproj", "{2DFAD4FC-4080-4D66-AA36-B99486C3BE38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMorphControlService", "..\..\..\cloudmorph-fabric\src\CloudMorphControlService\CloudMorphControlService.csproj", "{7072DABD-4C0A-404E-A5A2-1A850337D590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMorphControl", "..\..\..\cloudmorph-fabric\src\CloudMorphControl\CloudMorphControl.csproj", "{C06ABAC8-B3AF-4920-8C9B-8BC358C015D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMorphClient.Test", "..\..\..\cloudmorph-fabric\test\CloudMorphClient.Test\CloudMorphClient.Test.csproj", "{FA70EA46-9625-4CC2-B53F-FF3ABDE8C62C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E03BD41-8206-4357-BD86-3CD142BED685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E03BD41-8206-4357-BD86-3CD142BED685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E03BD41-8206-4357-BD86-3CD142BED685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E03BD41-8206-4357-BD86-3CD142BED685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFAD4FC-4080-4D66-AA36-B99486C3BE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFAD4FC-4080-4D66-AA36-B99486C3BE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFAD4FC-4080-4D66-AA36-B99486C3BE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFAD4FC-4080-4D66-AA36-B99486C3BE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7072DABD-4C0A-404E-A5A2-1A850337D590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7072DABD-4C0A-404E-A5A2-1A850337D590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7072DABD-4C0A-404E-A5A2-1A850337D590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7072DABD-4C0A-404E-A5A2-1A850337D590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06ABAC8-B3AF-4920-8C9B-8BC358C015D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06ABAC8-B3AF-4920-8C9B-8BC358C015D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06ABAC8-B3AF-4920-8C9B-8BC358C015D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06ABAC8-B3AF-4920-8C9B-8BC358C015D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA70EA46-9625-4CC2-B53F-FF3ABDE8C62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA70EA46-9625-4CC2-B53F-FF3ABDE8C62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA70EA46-9625-4CC2-B53F-FF3ABDE8C62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA70EA46-9625-4CC2-B53F-FF3ABDE8C62C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
